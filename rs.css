@@ -1,0 +1,60 @@
+p.card-header-title
+{
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    color: whitesmoke;
+    flex-wrap: wrap;
+}
+.card-content
+{
+    flex-wrap: wrap;
+    text-align: center;
+}
+.hi
+{
+width: 100px;
+height:100px;
+border:5px solid black;
+border-radius:75px;
+}
+div.card
+{
+    background-color: darkslateblue;
+}
+.card-footer
+{
+    color:whitesmoke;
+    justify-content: center;
+}
+div.kii
+{
+    background-color: darkslateblue; 
+    text-align: center;
+}
+#reset
+{
+    padding: 15px;
+    border-radius: 20px;
+    border-color: solid black;;
+    background-color: whitesmoke;
+    text-align: center;
+}
+.container
+{
+    padding-top:125px;
+}
+#result
+{
+    background-color: darkslateblue;
+    color:whitesmoke;
+    text-align: center;
+    font-size: 50px;
+}
+#con
+{
+    background-color: darkslateblue;
+    color:whitesmoke;
+    text-align: center;
+}

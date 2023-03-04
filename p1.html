@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rs.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <title>Rock Paper Scissor</title>
+</head>
+<body>
+  
+  <div class="container">
+    <div class="columns">
+   <div class="column is-three-fifths is-offset-one-fifth">
+    <div class="card">
+        <header class="card-header">
+          <p class="card-header-title">
+            Rock paper Scissor
+          </p>
+        </header>
+        <div>
+          <p id="con"> </p>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <img class="hi" id="rock" value="1" src="rock.png">
+            <img class="hi" id="paper" value="2" src="paper.png">
+            <img class="hi" id="scissor" value="3" src="scissor.png">
+          </div>
+        </div>
+        <footer class="card-footer">
+            <h1 class="is-size-1" ><span id ="userscore">0</span> - <span id="computerscore">0</span></h1>
+          </footer>
+        </div>
+        <div>
+          <p id="result">Try your Luck 🤞🤞</p>
+        </div>
+        <div class="kii">
+        <button id="reset">Reset</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <script src="rock.js"></script>
+</body>
+</html>
